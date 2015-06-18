@@ -1,4 +1,4 @@
-SAPUI5-Fiori (forked from [qmacro](https://github.com/qmacro/SAPUI5-Fiori))
+SAPUI5-Fiori (cloned from [qmacro](https://github.com/qmacro/SAPUI5-Fiori))
 ========================
 
 SAP Fiori-like app in SAPUI5. 
