@@ -1,3 +1,7 @@
+// author: devatwork2@gmail.com
+// date: 24 dec 2014
+// desc: oData filters to a comboBox
+
 sap.ui.controller("sap.ui.app.demoProject.view.Master", {
 	
 	onInit : function (evt) {
