@@ -1,0 +1,22 @@
+<core:View
+	controllerName="sap.ui.demo.myFiori.view.Master"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core" >
+	<Page
+		title="Odata List Test Page" >
+		<List
+		    id="OdataList"
+		    headerText="Employees"
+		    items="{
+		      path: '/Employees',
+		      sorter: {
+		        path: 'EmployeeID'
+		      }
+		    }">
+		    <items>
+		      <StandardListItem
+		        title="{Title}" />
+		    </items>
+		  </List>
+	</Page>
+</core:View>

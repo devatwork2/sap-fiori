@@ -1,0 +1,17 @@
+<core:View
+	controllerName="sap.ui.demo.myFiori.view.Master"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core" >
+	<Page
+		binding="{/Customers('ALFKI')}"
+		title="~MasterPage~" >
+		<content>
+			<Label text="Customer ID" />
+			<Input value="{CustomerID}" />
+			<Label text="Company Name" />
+	        <Input value="{CompanyName}" />
+	        <Label text="Contact Name" />
+	        <Input value="{ContactName}" />
+		</content>
+	</Page>
+</core:View>
