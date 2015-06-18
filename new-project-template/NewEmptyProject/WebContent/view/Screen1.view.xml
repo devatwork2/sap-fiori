@@ -1,0 +1,23 @@
+<core:View
+	controllerName="sap.ui.demo.myFiori.view.Screen1"
+	xmlns="sap.m"
+	xmlns:form="sap.ui.layout.form"
+	xmlns:core="sap.ui.core" >
+	<Page
+		title="Screen 1"
+		showNavButton="false"
+		navButtonPress="handleNavButtonPress" >
+
+		 <footer>
+        	<Bar>
+          		<contentRight>
+              		<Button
+	                text="Save"
+	                type="Emphasized"
+	                icon="sap-icon://save"
+	                press="handleSaveButtonPress" />
+          		</contentRight>
+     	  </Bar>
+   		</footer>
+	</Page>
+</core:View>
